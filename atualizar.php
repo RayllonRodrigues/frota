@@ -26,8 +26,8 @@ $result = $conn->query($sql);
         <div class="d-flex justify-content-end mb-3">
             <a href="adicionar.php" class="btn btn-success">Adicionar Novo Registro</a>
         </div>
-        <table class="table">
-            <thead>
+        <table class="table table-bordered">
+        <thead class='table-dark'>
                 <tr>
                     <th>Veículo</th>
                     <th>Placa</th>
