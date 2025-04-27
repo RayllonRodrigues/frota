@@ -21,7 +21,7 @@
 
         <?php
         // Conexão com o banco de dados
-        $conn = new mysqli('localhost', 'root', '41418162218', 'controle_veiculos');
+        $conn = new mysqli('localhost', 'root', 'senha', 'nome do bando');
 
         // Verifica se a conexão falhou
         if ($conn->connect_error) {
